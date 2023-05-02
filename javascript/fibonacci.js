@@ -1,7 +1,8 @@
+
 function fibonacci(num) {
   let n1=0, n2=1, next, i
   const list = []
-  for (i=0; i < 29; i++) {
+  for (i=0; i <= num; i++) {
        list.push(n1)
        next = n1 + n2
        n1 = n2
